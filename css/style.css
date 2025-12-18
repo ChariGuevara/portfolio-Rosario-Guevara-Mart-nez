@@ -1,0 +1,57 @@
+
+* {
+    font-family: 'Arial', sans-serif;
+}
+
+    :root{
+    -main-color: #507fff;
+    --secondary-color: #2e31cc;
+    --accent-color: #ff5733;
+    --verdecito: #28a745;
+    --black-standard: #131314:                 
+}
+    
+
+h1{
+    color: var(--main-color)
+    background-color: var(#ff5733)
+}
+
+#p2{
+    color: yellow;
+    background-color: rgb(150, 179, 179);
+}
+
+
+    .parrafo{
+    color: orange;
+    background-color: rgb(167, 133, 79);
+}
+
+/*Estilos para todos los parrafos */
+
+p{
+    color: green;
+    background-color: rgb(179, 179, 150);
+}
+
+body{
+    color: red;
+    background-color: rgb(200, 200, 200);
+}
+
+
+
+div {
+    background-color: aqua; 
+}
+
+a:hover{
+    color: black;
+}
+
+#p2::first-letter{
+    font-size: 200%;
+    color: red;
+}
+    
